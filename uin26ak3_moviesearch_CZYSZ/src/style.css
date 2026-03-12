@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header, footer {
+  padding: 1rem;
+  background: #111;
+  color: white;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  display: grid;
+  gap: 1rem;
+}
+
+article {
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+img {
+  max-width: 150px;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
