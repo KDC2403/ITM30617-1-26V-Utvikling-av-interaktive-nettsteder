@@ -1,5 +1,7 @@
+/* Importerer filmkort fra Moviecard.jsx komponentet */
 import MovieCard from "./MovieCard"
 
+/* Hovedfunksjon til film liste på nettsiden */
 function MovieList({ movies }) {
   return (
     <section>
@@ -10,4 +12,5 @@ function MovieList({ movies }) {
   )
 }
 
+/* Eksporterer film liste-komponenten */
 export default MovieList
