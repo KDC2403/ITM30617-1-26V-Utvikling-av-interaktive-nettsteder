@@ -26,6 +26,7 @@ function Home() {
     const value = e.target.value
     setSearch(value)
 
+    /* Henter filmer basert på søkeordet */
     if (value.length >= 3) {
       fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${value}`)
         .then(res => res.json())
