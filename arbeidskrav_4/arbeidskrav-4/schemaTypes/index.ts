@@ -1,1 +1,3 @@
-export const schemaTypes = []
+import assignment from './assignment'
+
+export const schemaTypes = [assignment]

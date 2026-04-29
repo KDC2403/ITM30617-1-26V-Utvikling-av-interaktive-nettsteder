@@ -1,8 +1,7 @@
 import './styles/global.css'
 
 import Header from './components/Header'
-import PersonOne from './components/profiles/PersonOne'
-import PersonTwo from './components/profiles/PersonTwo'
+import PersonOne from './components/profiles/Profile1'
 import AssignmentList from './components/AssignmentList'
 
 function App() {
